@@ -25,7 +25,7 @@ for (color of myH2) {
 */
 
 const backpackContianer = document.getElementById("backpack");
-backpackContianer.style.backgroundColor = "blue";
+backpackContianer.style.backgroundColor = "#0d6efd";
 backpackContianer.style.padding = '24px';
 backpackContianer.style.borderRadius = '8px';
 /* 
