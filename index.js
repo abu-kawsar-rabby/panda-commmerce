@@ -24,9 +24,16 @@ for (color of myH2) {
 -----------------------------------------------------
 */
 
-document.getElementById("backpack").style.backgroundColor = "tomato";
+const backpackContianer = document.getElementById("backpack");
+backpackContianer.style.backgroundColor = "blue";
+backpackContianer.style.padding = '24px';
+backpackContianer.style.borderRadius = '8px';
+/* 
+ extra ---
+ backpack titile color change for looking good
 
-
+*/
+document.getElementById('backpack-title').style.color = 'white';
 /* 
 ------------------Problem No:  4--------------------- 
 ----------Change the border radius of card-----------
@@ -36,7 +43,7 @@ document.getElementById("backpack").style.backgroundColor = "tomato";
 
 const cards = document.getElementsByClassName('card');
 for (card of cards) {
-    card.style.borderRadius = '30px';
+    card.style.borderRadius = '8px';
 }
 
 /* 
